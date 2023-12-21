@@ -4903,15 +4903,14 @@ ul {
 }
 
 
-.depart-tab .nav-pills{
+/* .depart-tab .nav-pills{
 
 overflow-y: scroll;
-/* width: 300px; */
+
 height: 30rem;
 display: grid;
 
-
-}
+} */
 .depart-tab .nav-link.active{
   background-color: var(--pitoon-base);
   content: "";
@@ -4924,8 +4923,8 @@ display: grid;
   clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
   z-index: -1;
   margin-top: 1rem;
-  padding: 0.2rem ;
-  line-height: 20px;
+  padding: 0.7rem ;
+  line-height: 30px;
 
  
 
@@ -4937,8 +4936,8 @@ display: grid;
   margin-top: 1rem;
   color: white;
   clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
-  padding: 0.2rem ;
-  line-height: 20px;
+  padding: 0.7rem ;
+  line-height: 30px;
 
 }
 
