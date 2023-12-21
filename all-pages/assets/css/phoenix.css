@@ -4819,6 +4819,7 @@ ul {
   display: block;
   padding: 90px 0px 20px 0px;
   z-index: 1;
+ 
 }
 
 .project-details__top {
@@ -4830,6 +4831,7 @@ ul {
 
 .project-details__title-and-date-box {
   position: relative;
+  margin-bottom: 4rem;
   
 }
 
@@ -4848,6 +4850,7 @@ ul {
   position: relative;
   display: block;
   top: 3px;
+ 
 }
 
 .project-details__date {
@@ -4877,6 +4880,7 @@ ul {
   position: relative;
   display: block;
   border-bottom: 1px solid var(--pitoon-bdr-color);
+  margin-top: 1rem;
 }
 
 .project-details__bottom-left {
@@ -4889,7 +4893,7 @@ ul {
   font-weight: 700;
   line-height: 30px;
   color: var(--pitoon-base);
-  margin-top: 28px;
+  /* margin-top: 28px; */
   margin-bottom: 10px;
 }
 
@@ -4901,9 +4905,35 @@ ul {
 
 .depart-tab .nav-link.active{
   background-color: var(--pitoon-base);
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: -21px;
+  /* clip-path:polygon(0 0, 90% 0, 100% 50%, 90% 100%, 00%, 10% 50%); */
+  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
+  z-index: -1;
+  margin-top: 1rem;
 
 }
 
+
+.depart-tab .nav-link{
+  background-color: var(--pitoon-primary);
+  margin-top: 1rem;
+  color: white;
+  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
+
+
+}
+
+
+
+
+.tab-content{
+  margin-left: 4rem;
+}
 
 
 
