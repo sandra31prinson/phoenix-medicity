@@ -4903,14 +4903,13 @@ ul {
 }
 
 
-/* .depart-tab .nav-pills{
+.depart-tab .nav-pills{
 
 overflow-y: scroll;
-
 height: 30rem;
 display: grid;
 
-} */
+}
 .depart-tab .nav-link.active{
   background-color: var(--pitoon-base);
   content: "";
@@ -4949,7 +4948,27 @@ display: grid;
 }
 
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--pitoon-base);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:var(--pitoon-primary); 
+}
 
 
 
