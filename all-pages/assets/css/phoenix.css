@@ -4889,13 +4889,21 @@ ul {
 }
 
 .project-details__text-2 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   line-height: 30px;
   color: var(--pitoon-base);
   /* margin-top: 28px; */
   margin-bottom: 10px;
 }
+
+
+.project-details__text-2 .btn.btn:focus {
+  outline: 0;
+    box-shadow: none;
+
+}
+
 
 .project-details__text-4 {
   margin-top: 10px;
@@ -4924,6 +4932,9 @@ display: grid;
   margin-top: 1rem;
   padding: 0.7rem ;
   line-height: 30px;
+  
+  
+ 
 
  
 
@@ -4937,6 +4948,12 @@ display: grid;
   clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
   padding: 0.7rem ;
   line-height: 30px;
+
+
+ 
+  text-overflow: ellipsis;
+
+  
 
 }
 
