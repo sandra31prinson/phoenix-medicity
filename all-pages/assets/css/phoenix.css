@@ -4895,10 +4895,17 @@ ul {
   color: var(--pitoon-base);
   /* margin-top: 28px; */
   margin-bottom: 10px;
+
 }
 
 
 .project-details__text-2 .btn.btn:focus {
+  outline: 0;
+    box-shadow: none;
+
+}
+
+.project-details__text-4 .btn.btn:focus {
   outline: 0;
     box-shadow: none;
 
@@ -4914,8 +4921,10 @@ ul {
 .depart-tab .nav-pills{
 
 overflow-y: scroll;
-height: 30rem;
+height: 40rem;
 display: grid;
+margin-top: 7rem;
+
 
 }
 .depart-tab .nav-link.active{
@@ -4931,8 +4940,14 @@ display: grid;
   z-index: -1;
   margin-top: 1rem;
   padding: 0.7rem ;
+ 
+  padding-bottom: 40px;
   line-height: 30px;
-  
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 20rem;
+  white-space: nowrap;
+  text-align: center;
   
  
 
@@ -4942,7 +4957,7 @@ display: grid;
 
 
 .depart-tab .nav-link{
-  background-color: var(--pitoon-primary);
+  background-color: var(--pitoon-gray);
   margin-top: 1rem;
   color: white;
   clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
@@ -4952,6 +4967,14 @@ display: grid;
 
  
   text-overflow: ellipsis;
+
+  padding-bottom: 40px;
+  line-height: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 20rem;
+  white-space: nowrap;
+  text-align: center;
 
   
 
@@ -4967,7 +4990,7 @@ display: grid;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 3px;
 }
 
 /* Track */
@@ -4984,7 +5007,7 @@ display: grid;
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:var(--pitoon-primary); 
+  background:var(--pitoon-black); 
 }
 
 
