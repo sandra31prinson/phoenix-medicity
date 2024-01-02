@@ -4869,9 +4869,10 @@ ul {
   font-weight: 600 !important;
   line-height: 12px !important;
   background-color: var(--pitoon-base) !important;
+  
   color: var(--pitoon-white) !important;
   text-transform: uppercase !important;
-  padding: 8px 20px 9px !important;
+  padding: 8px 10px 4px !important;
   width: fit-content ;
 }
 
@@ -4890,7 +4891,7 @@ ul {
 .project-details__bottom {
   position: relative;
   display: block;
-  border-bottom: 1px solid var(--pitoon-bdr-color);
+  /* border-bottom: 1px solid var(--pitoon-bdr-color); */
   margin-top: 1rem;
 }
 
@@ -4929,12 +4930,15 @@ ul {
 }
 
 
+
+
 .depart-tab .nav-pills{
 
 overflow-y: scroll;
-height: 40rem;
+height: 30rem;
 display: grid;
 margin-top: 7rem;
+font-size: small;
 
 
 }
@@ -4949,17 +4953,16 @@ margin-top: 7rem;
   /* clip-path:polygon(0 0, 90% 0, 100% 50%, 90% 100%, 00%, 10% 50%); */
   clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
   z-index: -1;
-  margin-top: 1rem;
+  margin-top: .5rem;
   padding: 0.7rem ;
- 
-  padding-bottom: 40px;
-  line-height: 30px;
+  padding-bottom: 30px;
+  line-height: 20px;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 20rem;
   white-space: nowrap;
   text-align: center;
-  
+  border: none;
  
 
  
@@ -4968,24 +4971,22 @@ margin-top: 7rem;
 
 
 .depart-tab .nav-link{
-  background-color: var(--pitoon-gray);
-  margin-top: 1rem;
-  color: white;
+ 
+  margin-top: .5rem;
+  color: rgb(0, 0, 0);
   clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
   padding: 0.7rem ;
   line-height: 30px;
-
-
- 
+  /* border: 1px solid black; */
   text-overflow: ellipsis;
-
-  padding-bottom: 40px;
-  line-height: 30px;
+  padding-bottom: 30px;
+  line-height: 20px;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 20rem;
   white-space: nowrap;
   text-align: center;
+  background-color:#f5f3ee;
 
   
 
@@ -5006,7 +5007,8 @@ margin-top: 7rem;
 ::-webkit-scrollbar {
   width: 3px;
   position: absolute;
-  left: 0;
+  left: 0px;
+
 }
 
 /* Track */
@@ -5022,6 +5024,7 @@ margin-top: 7rem;
 ::-webkit-scrollbar-thumb {
   background:var(--pitoon-base);
   border-radius: 10px;
+  
 }
 
 /* Handle on hover */
@@ -5031,6 +5034,19 @@ margin-top: 7rem;
 
 
 
+
+
+@media only screen and (max-width: 375px) {
+  
+  /* [class*="col-"] {
+    width: 50%;
+    
+  } */
+  .tab-content {
+    margin-left: 0rem;
+}
+  
+}
 
 
 
